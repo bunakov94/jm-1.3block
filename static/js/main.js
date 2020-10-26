@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var btn=document.getElementById("show-more"),posts=document.getElementsByClassName("post__text");btn.addEventListener("click",function(){btn.classList.toggle("show-more__btn--active"),posts[2].classList.toggle("post__text--visible"),posts[3].classList.toggle("post__text--visible"),btn.classList.contains("show-more__btn--active")?btn.innerHTML="Скрыть":btn.innerHTML="Читать далее"}),window.matchMedia("(min-width: 768px)").matches&&posts[1].classList.add("post__text--visible");
